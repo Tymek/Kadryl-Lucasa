@@ -1,0 +1,16 @@
+.row {
+    clear: both;
+}
+
+.row div {
+    float: left;
+    padding: 0.1em;
+}
+
+.blue {
+    background: #0000aa;
+}
+
+.green {
+    background: #00aa00;
+}

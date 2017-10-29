@@ -1,0 +1,22 @@
+{
+  "name": "kadryl",
+  "version": "1.0.0",
+  "description": "0 hour game jam",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tymek/kadryl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tymek/kadryl/issues"
+  },
+  "homepage": "https://github.com/Tymek/kadryl#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
