@@ -11,6 +11,11 @@
     cursor: pointer;
 }
 
+#counter {
+    font-size: 2em;
+    padding: 1em;
+}
+
 .blue {
     background: #0000aa;
 }

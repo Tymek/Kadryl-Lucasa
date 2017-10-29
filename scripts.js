@@ -12,7 +12,7 @@ $(function() {
                 color = 'white';
             }
             $("#game").find('.row').last()
-                .append('<div data-id="' + id + '" class="' + color + '">' + id + '</div>');
+                .append('<div data-id="' + id + '" class="' + color + '"></div>');
         }
     }
     var white = [3, 3];
@@ -27,10 +27,11 @@ $(function() {
         }
         var block = t.attr('data-id').split('-');
         var x = Math.sqrt(Math.pow(white[0]-block[0], 2) + Math.pow(white[1]-block[1], 2));
-        if (x <= 1) {
+        if (x == 1 || x == 2) {
             $('[data-id=' + white.join('-') + ']').removeClass('white').addClass(color);
             white = block;
             $('[data-id=' + block.join('-') + ']').removeClass(color).addClass('white');
+            $('#counter').text(parseInt($("#counter").text(), 10) + 1)
         }
     });
 });
